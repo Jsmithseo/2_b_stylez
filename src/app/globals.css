@@ -271,3 +271,8 @@ a {
 .footer ul li a:hover {
   text-decoration: underline;
 }
+
+
+img.img-fluid.trending {
+  max-height: 615px;
+}

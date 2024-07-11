@@ -20,8 +20,8 @@ const images = [
 ];
 
 const pairImages = [
-  { src: 'https://via.placeholder.com/600x400', alt: 'Image A' },
-  { src: 'https://via.placeholder.com/600x400', alt: 'Image B' },
+  { src: 'featured1.jpeg', alt: 'Image A' },
+  { src: 'featured2.jpeg', alt: 'Image B' },
 ];
 
 const quadImages = [
@@ -56,6 +56,8 @@ export default function Home() {
         <h2> Join the Newsletter</h2>
         </center>
         <Newsletter />
+        <br/>
+        <br/>
       </Container>
       <Footer/>
     </>

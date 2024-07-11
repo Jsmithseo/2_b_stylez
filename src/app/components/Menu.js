@@ -53,7 +53,7 @@ class CenteredNavbar extends React.Component {
               </Nav>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="https://facebook.com" target="_blank">
+                  <NavLink href="https://www.facebook.com/people/Glenn-Robinson/pfbid0ybGBbms4tk3zjrgPJ3h4CJskte13nTtJsZEMsXEzRrWNvYDuDz3kK7uzgPfrE6Eol/?mibextid=LQQJ4d" target="_blank">
                     <i className="fab fa-facebook-f"></i>
                   </NavLink>
                 </NavItem>
@@ -63,7 +63,7 @@ class CenteredNavbar extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://instagram.com" target="_blank">
+                  <NavLink href="https://www.instagram.com/2_b_stylez/?igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
                     <i className="fab fa-instagram"></i>
                   </NavLink>
                 </NavItem>
