@@ -58,7 +58,7 @@ class CenteredNavbar extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://twitter.com" target="_blank">
+                  <NavLink href="https://www.pinterest.com/glenn9robinson/?invite_code=a1cfbb4516bf4646a817eefce244792d&sender=1120200244722890446" target="_blank">
                     <i className="fab fa-pinterest"></i>
                   </NavLink>
                 </NavItem>

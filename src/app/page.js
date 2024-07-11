@@ -14,7 +14,7 @@ import { Container } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const images = [
-  { src: 'https://via.placeholder.com/400x300', alt: 'Image 1' },
+  { src: 'featured3.jpeg', alt: 'Image 1' },
   { src: 'https://via.placeholder.com/400x300', alt: 'Image 2' },
   { src: 'https://via.placeholder.com/400x300', alt: 'Image 3' },
 ];
