@@ -1,95 +1,63 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client';
+// import Image from 'next/image';
+import React, { useState } from 'react';
+import styles from './page.module.css';
+import Menu from './components/Menu';
+import OffersSlider from './components/Offers';
+import JumbotronComponent from './components/JumbotronComponent';
+import FeaturedItems from './components/FeaturedItems';
+import TrendingItems from './components/TrendingItems';
+import Events_workshops from './components/Event_workshops';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+import { Container } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+
+const images = [
+  { src: 'https://via.placeholder.com/400x300', alt: 'Image 1' },
+  { src: 'https://via.placeholder.com/400x300', alt: 'Image 2' },
+  { src: 'https://via.placeholder.com/400x300', alt: 'Image 3' },
+];
+
+const pairImages = [
+  { src: 'https://via.placeholder.com/600x400', alt: 'Image A' },
+  { src: 'https://via.placeholder.com/600x400', alt: 'Image B' },
+];
+
+const quadImages = [
+  { src: 'https://via.placeholder.com/300x200', alt: 'Image X' },
+  { src: 'https://via.placeholder.com/300x200', alt: 'Image Y' },
+  { src: 'https://via.placeholder.com/300x200', alt: 'Image Z' },
+  { src: 'https://via.placeholder.com/300x200', alt: 'Image W' },
+];
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <>
+      <Menu />
+      <OffersSlider />
+      <JumbotronComponent
+        title="Welcome to Our Website"
+        subtitle="We are glad to have you here. Explore our content and learn more about us."
+        buttonText="Learn More"
+        buttonLink="#"
+        imageUrl="https://via.placeholder.com/1200x400" // Replace with your image URL
+      />
+      <center>
+        <h2 className="headlineCopy">Your One Stop Shop For Style</h2>
+      </center>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <FeaturedItems images={images} />
+      <TrendingItems images={pairImages} />
+      <Events_workshops images={quadImages} />
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Container className="newsletter">
+        <center>
+        <h2> Join the Newsletter</h2>
+        </center>
+        <Newsletter />
+      </Container>
+      <Footer/>
+    </>
   );
 }
