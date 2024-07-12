@@ -41,7 +41,7 @@ export default function Home() {
         subtitle="We are glad to have you here. Explore our content and learn more about us."
         buttonText="Learn More"
         buttonLink="#"
-        imageUrl="https://via.placeholder.com/1200x400" // Replace with your image URL
+        imageUrl="banner2.png" // Replace with your image URL
       />
       <center>
         <h2 className="headlineCopy">Your One Stop Shop For Style</h2>
@@ -53,13 +53,13 @@ export default function Home() {
 
       <Container className="newsletter">
         <center>
-        <h2> Join the Newsletter</h2>
+          <h2> Join the Newsletter</h2>
         </center>
         <Newsletter />
-        <br/>
-        <br/>
+        <br />
+        <br />
       </Container>
-      <Footer/>
+      <Footer />
     </>
   );
 }

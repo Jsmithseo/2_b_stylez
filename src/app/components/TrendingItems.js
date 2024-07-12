@@ -12,7 +12,11 @@ const TrendingItems = ({ images }) => {
         {images.map((image, index) => (
           <Col key={index} md="6" className="mb-4">
             <div className="image-container">
-              <img src={image.src} alt={image.alt} className="img-fluid trending" />
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="img-fluid trending"
+              />
             </div>
           </Col>
         ))}

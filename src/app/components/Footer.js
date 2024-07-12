@@ -10,29 +10,47 @@ const Footer = () => {
           <Col md="4">
             <h5>THE WEEZ EXPERIENCE</h5>
             <p>
-              As the world evolves, so do we. We've reimagined and refined our collections to ensure we meet your fashion desires in an ever-changing landscape. From chic streetwear to elegant evening wear, timeless classics to avant-garde trends, we curate every style imaginable.
+              As the world evolves, so do we. We've reimagined and refined our
+              collections to ensure we meet your fashion desires in an
+              ever-changing landscape. From chic streetwear to elegant evening
+              wear, timeless classics to avant-garde trends, we curate every
+              style imaginable.
             </p>
           </Col>
           <Col md="4">
             <h5>Contact</h5>
             <ul>
-              <li><a href="tel:628-253-3914">628-253-3914</a></li>
-              <li><a href="mailto:glenn9robinson@gmail.com">glenn9robinson@gmail.com</a></li>
+              <li>
+                <a href="tel:628-253-3914">628-253-3914</a>
+              </li>
+              <li>
+                <a href="mailto:glenn9robinson@gmail.com">
+                  glenn9robinson@gmail.com
+                </a>
+              </li>
               <li>810 B St San Rafael, CA 94901</li>
             </ul>
           </Col>
           <Col md="4">
             <h5>Recent Posts</h5>
             <ul>
-              <li><a href="#link7">Post 1</a></li>
-              <li><a href="#link8">Post 2</a></li>
-              <li><a href="#link9">Post 3</a></li>
+              <li>
+                <a href="#link7">Post 1</a>
+              </li>
+              <li>
+                <a href="#link8">Post 2</a>
+              </li>
+              <li>
+                <a href="#link9">Post 3</a>
+              </li>
             </ul>
           </Col>
         </Row>
         <Row className="justify-content-center mt-3">
           <Col md="12" className="text-center">
-            <p className="mb-0">© {new Date().getFullYear()} 2 B Stylez. All rights reserved.</p>
+            <p className="mb-0">
+              © {new Date().getFullYear()} 2 B Stylez. All rights reserved.
+            </p>
           </Col>
         </Row>
       </Container>

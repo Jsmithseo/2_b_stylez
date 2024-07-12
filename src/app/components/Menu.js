@@ -53,17 +53,26 @@ class CenteredNavbar extends React.Component {
               </Nav>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="https://www.facebook.com/people/Glenn-Robinson/pfbid0ybGBbms4tk3zjrgPJ3h4CJskte13nTtJsZEMsXEzRrWNvYDuDz3kK7uzgPfrE6Eol/?mibextid=LQQJ4d" target="_blank">
+                  <NavLink
+                    href="https://www.facebook.com/people/Glenn-Robinson/pfbid0ybGBbms4tk3zjrgPJ3h4CJskte13nTtJsZEMsXEzRrWNvYDuDz3kK7uzgPfrE6Eol/?mibextid=LQQJ4d"
+                    target="_blank"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.pinterest.com/glenn9robinson/?invite_code=a1cfbb4516bf4646a817eefce244792d&sender=1120200244722890446" target="_blank">
+                  <NavLink
+                    href="https://www.pinterest.com/glenn9robinson/?invite_code=a1cfbb4516bf4646a817eefce244792d&sender=1120200244722890446"
+                    target="_blank"
+                  >
                     <i className="fab fa-pinterest"></i>
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.instagram.com/2_b_stylez/?igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
+                  <NavLink
+                    href="https://www.instagram.com/2_b_stylez/?igsh=MzRlODBiNWFlZA%3D%3D"
+                    target="_blank"
+                  >
                     <i className="fab fa-instagram"></i>
                   </NavLink>
                 </NavItem>
