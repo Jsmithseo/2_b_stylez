@@ -25,10 +25,10 @@ const pairImages = [
 ];
 
 const quadImages = [
-  { src: 'https://via.placeholder.com/300x200', alt: 'Image X' },
-  { src: 'https://via.placeholder.com/300x200', alt: 'Image Y' },
-  { src: 'https://via.placeholder.com/300x200', alt: 'Image Z' },
-  { src: 'https://via.placeholder.com/300x200', alt: 'Image W' },
+  { src: 'event1.png', alt: 'Image X' },
+  { src: 'event2.png', alt: 'Image Y' },
+  { src: 'event3.png', alt: 'Image Z' },
+  { src: 'event4.png', alt: 'Image W' },
 ];
 
 export default function Home() {
