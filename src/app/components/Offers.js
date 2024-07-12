@@ -6,8 +6,8 @@ import 'slick-carousel/slick/slick-theme.css';
 const offers = [
   {
     id: 1,
-    title: '50% off on all items!',
-    description: 'Limited time offer. Grab it now!',
+    title: '10% off Haircuts if you shop in our store',
+    description: 'Get Fresh Head 2 Toe',
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const OffersSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
   };
 
