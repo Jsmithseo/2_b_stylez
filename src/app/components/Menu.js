@@ -12,6 +12,12 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
+const logo = [
+  { src: 'logo.png', alt: 'Image ' },
+];
+
+
 class CenteredNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -31,7 +37,9 @@ class CenteredNavbar extends React.Component {
       <div>
         <Navbar color="light" light expand="lg">
           <Container>
-            <NavbarBrand href="/">2 B Stylez</NavbarBrand>
+            <NavbarBrand href="/"> 
+            <img src="logo.png" alt="Logo" className="logo" />
+            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="m-auto" navbar>

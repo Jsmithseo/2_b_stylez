@@ -114,7 +114,9 @@ a {
   }
 }
 
-
+img.logo {
+  padding-top: 15px;
+}
 
 button.navbar-toggler {
   float: right;
