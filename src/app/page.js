@@ -15,13 +15,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const images = [
   { src: 'featured3.jpeg', alt: 'Image 1' },
-  { src: 'https://via.placeholder.com/400x300', alt: 'Image 2' },
-  { src: 'https://via.placeholder.com/400x300', alt: 'Image 3' },
+  { src: 'glasses_display.jpeg', alt: 'Image 2' },
+  { src: 'featured1.jpeg', alt: 'Image 3' },
 ];
 
 const pairImages = [
-  { src: 'featured1.jpeg', alt: 'Image A' },
-  { src: 'featured2.jpeg', alt: 'Image B' },
+  { src: 'female_model1.png', alt: 'Image A' },
+  { src: 'male_model_1.png', alt: 'Image B' },
 ];
 
 const quadImages = [
