@@ -7,17 +7,17 @@ const offers = [
   {
     id: 1,
     title: '10% off Haircuts if you shop in our store',
-    description: 'Get Fresh Head 2 Toe',
+    description: 'Get Fresh Head 2 Toe ',
   },
   {
     id: 2,
-    title: 'Buy one get one free!',
+    title: '2 B Stylez Events Coming Soon',
     description: 'Special deal for this weekend only.',
   },
   {
     id: 3,
     title: 'Free shipping on orders over $50',
-    description: 'Shop more, save more on shipping.',
+    description: 'Click "shop" and see all our latest fashion',
   },
   // Add more offers as needed
 ];
@@ -26,7 +26,7 @@ const OffersSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,

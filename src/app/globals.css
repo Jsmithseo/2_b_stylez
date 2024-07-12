@@ -115,7 +115,21 @@ a {
 }
 
 img.logo {
-  padding-top: 15px;
+  height: 100px!important; /* Adjust the height as needed */
+}
+
+
+img.logo{
+  margin: 20px; /* Add margin to adjust the positioning */
+  padding: 10px; /* Add padding for inner spacing */
+}
+
+
+
+
+a.nav-link {
+  color: #fff;
+  font-weight: bolder;
 }
 
 button.navbar-toggler {
@@ -124,6 +138,10 @@ button.navbar-toggler {
 
 .offers-slider {
   background-color: darksalmon!important;
+}
+
+.slick-dots {
+  bottom: 15px!important;
 }
 
 footer.footer.mt-auto.py-3.bg-light {
@@ -149,15 +167,45 @@ footer.footer.mt-auto.py-3.bg-light {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #000; /* Change this to the desired underline color */
-  transition: width 0.3s ease;
-  -webkit-transition: width 0.3s ease;
+
 }
+
+button.navbar-toggler{
+  border-color: white; /* Change border color to white */
+}
+
+button.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.custom-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Custom styles for the navbar collapse background */
+.navbar-collapse {
+  background-color: #000; /* Change background color to white */
+}
+
+/* Adjust navigation links if needed */
+.nav-link {
+  color: #007bff; /* Change the color as needed */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Change the hover color as needed */
+  text-decoration: underline;
+}
+
+
+
+
 
 .navbar-nav .nav-link:hover::after {
   width: 100%;
   left: 0;
-  background: #000; /* Match the underline color */
+  background: #fff; /* Match the underline color */
 }
 
 @media (max-width: 991.98px) {
@@ -297,4 +345,10 @@ img.img-fluid.trending {
   .jumbotron-component {
     display: none;
   }
+
+ 
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #000 !important;
 }

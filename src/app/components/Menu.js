@@ -36,9 +36,8 @@ class CenteredNavbar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="lg">
-          <Container>
             <NavbarBrand href="/"> 
-            <img src="logo.png" alt="Logo" className="logo" />
+            <img src="white_logo.png" alt="Logo" className="logo" />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
@@ -86,7 +85,6 @@ class CenteredNavbar extends React.Component {
                 </NavItem>
               </Nav>
             </Collapse>
-          </Container>
         </Navbar>
       </div>
     );
