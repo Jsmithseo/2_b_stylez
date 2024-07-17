@@ -7,7 +7,7 @@ const Events_workshops = ({ images }) => {
     <Container className="image-quad">
       <Row className="events_workshops">
         <center>
-          <h2>Event & Workshops</h2>
+          <h2>Events & Workshops</h2>
         </center>
         {images.map((image, index) => (
           <Col key={index} md="3" className="mb-4">

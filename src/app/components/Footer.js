@@ -32,16 +32,16 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="4">
-            <h5>Recent Posts</h5>
+            <h5>Services</h5>
             <ul>
               <li>
-                <a href="#link7">Post 1</a>
+                <a href="#link7">Haircuts </a>
               </li>
               <li>
-                <a href="#link8">Post 2</a>
+                <a href="#link8">Styling</a>
               </li>
               <li>
-                <a href="#link9">Post 3</a>
+                <a href="#link9">Consignment</a>
               </li>
             </ul>
           </Col>
