@@ -49,7 +49,6 @@ export default function Home() {
 
       <FeaturedItems images={images} />
       <TrendingItems images={pairImages} />
-      <Events_workshops images={quadImages} />
 
       <Container className="newsletter">
         <center>
