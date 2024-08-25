@@ -55,7 +55,7 @@ class CenteredNavbar extends React.Component {
                   <NavLink href="/contact">Events</NavLink>
                 </NavItem> */}
                 <NavItem>
-                  <NavLink href="/contact">News & Features</NavLink>
+                  <NavLink href="https://medium.com/@glenn9robinson">Blog</NavLink>
                 </NavItem>
               </Nav>
               <Nav className="ml-auto" navbar>
