@@ -43,7 +43,7 @@ class CenteredNavbar extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="m-auto" navbar>
                 <NavItem>
-                  <NavLink href="https://www.styleseat.com/m/v/glennrobinson">Book Hair Appointment</NavLink>
+                  <NavLink href="/appointments">Book Hair Appointment</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="https://poshmark.com/closet/2_b_stylez">Shop</NavLink>
