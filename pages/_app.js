@@ -1,5 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.css';
+import Menu from '../src/app/components/Menu'; // Your Menu component
+import Footer from '../src/app/components/Footer'; // Your Footer component
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -21,7 +24,9 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
+      <Menu />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
