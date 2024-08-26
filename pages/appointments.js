@@ -53,7 +53,7 @@ const Appointments = () => {
         <Row className="my-5">
           <Col>
             <h2>My Work</h2>
-            <p>Check out some of our latest work below. Click on any image to view in full size.</p>
+            <p>Check out some of my latest work below. Click on any image to view in full size.</p>
           </Col>
         </Row>
 
