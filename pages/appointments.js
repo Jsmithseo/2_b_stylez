@@ -45,8 +45,7 @@ const Appointments = () => {
           <Col>
             <h1>Book Your Appointment</h1>
             <p>
-              Schedule your next haircut with one of our experienced barbers. We offer a wide range of services tailored to meet your individual style and grooming needs. Whether you're looking for a classic cut or something more modern, our team is here to ensure you leave looking your best.
-            </p>
+            Schedule your next haircut with an experienced barber who specializes in a wide range of services tailored to meet your individual style and grooming needs. Whether you're looking for a classic cut or something more modern, this expert ensures you leave looking your best.            </p>
             <Link href="https://www.styleseat.com/m/v/glennrobinson"><Button color="primary" size="lg">Book Now</Button></Link>
           </Col>
         </Row>
