@@ -1,9 +1,8 @@
-import React from 'react';
-import Head from 'next/head';
+import { Html, Head, Main, NextScript } from 'next/document';
 
-function MyApp({ Component, pageProps }) {
+export default function Document() {
   return (
-    <>
+    <Html>
       <Head>
         {/* Google Tag (gtag.js) */}
         <script
@@ -21,9 +20,10 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
-      <Component {...pageProps} />
-    </>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
   );
 }
-
-export default MyApp;
